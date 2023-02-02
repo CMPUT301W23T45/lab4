@@ -1,6 +1,6 @@
 package com.example.lab_4_codecatchers;
 
-public class Shape {
+public abstract class Shape {
     protected int x, y;
     public Shape() {
         this.x = 0;

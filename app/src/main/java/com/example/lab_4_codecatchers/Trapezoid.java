@@ -10,6 +10,7 @@ public class Trapezoid extends Shape {
         this.top_length= top_length;
         this.base_length= base_length;
         this.height=height;
+
     }
 
     public void setTop_length(float top_length ) {

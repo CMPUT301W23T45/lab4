@@ -11,6 +11,7 @@ public class Rectangle extends Shape{
         super(x, y);
         this.width = width;
         this.height = height;
+
     }
     public int getWidth() {
         return this.width;

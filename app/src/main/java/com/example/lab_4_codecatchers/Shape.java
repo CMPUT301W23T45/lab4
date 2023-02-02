@@ -1,12 +1,12 @@
 package com.example.lab_4_codecatchers;
 
-public class Shape {
+public abstract class Shape {
     protected int x, y;
-    protected String color;
+    protected String color = "Gold";
+
     public Shape() {
         this.x = 0;
         this.y = 0;
-        this.color = "Yellow";
     }
     public Shape(int x, int y) {
         this.x = x;
